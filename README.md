@@ -1,4 +1,4 @@
-# CryptoSafe- A secure file storage flask webapp
+# CryptoSafe: A secure file storage flask webapp
 
 This project presents the hybrid encryption scheme which combines the quick encryption schemes of
 
