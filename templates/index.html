@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CryptoSafe</title>
-	<!-- <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}"> -->
+	<link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
 </head>
 
 <body>
@@ -14,7 +14,7 @@
 	<div class="container">
 		<h1> Crypto<span id="safe">Safe</span></h1><br>
 		<form action="/data/" method=post enctype=multipart/form-data>
-			<input id="real-file" type=file hidden="hidden">
+			<input id="real-file" type=file name=file hidden="hidden">
 			<button type="button" id="custom-button" class="btn">Choose a File</button><br>
 			<span id="custom-text">No file choosen</span>
 			<br><br><br><br>
