@@ -11,6 +11,17 @@ body {
   padding: 20px;
 }
 
+.icon{
+  height: 100%;
+  width: 100%;
+  max-height: 100px;
+  object-fit: contain
+}
+
+h2{
+  margin-top: 0;
+}
+
 #safe{
     color: rgb(97, 238, 92);
 }
