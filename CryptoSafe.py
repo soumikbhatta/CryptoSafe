@@ -17,7 +17,7 @@ def resultE():
     return render_template('KeyResult.html')
 
 def resultD():
-    return render_template('DecrptResult.html')
+    return render_template('DecryptResult.html')
 
 @app.route('/encrypt/')
 def EncryptInput():
