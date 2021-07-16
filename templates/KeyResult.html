@@ -2,16 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>File Saved</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoSafe</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
 </head>
 
 <body>
-    <h1>Your File Is Saved Successfully</h1>
-    <a href="/return-files-key/" target="blank">
+
+    <div class="container">
+        <h1> Crypto<span id="safe">Safe</span></h1><br>
+        <img class="icon" src="{{ url_for('static',filename='icons/saved.png') }}" alt="download">
+        <br><br>
+        <h2>Your File Is Saved Successfully</h2>
+        <a href="/return-files-key/" target="blank">
         <button class="btn btn-default">Download Secure Key!</button></a>
+    </div>
+
 </body>
 
 </html>
