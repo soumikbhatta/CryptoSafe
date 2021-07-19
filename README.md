@@ -4,7 +4,6 @@ This project presents the hybrid encryption scheme which combines the quick encr
 
 encryption algorithms like AES, Blowfish, Triple DES, IDEA, Fernet. The proposed approach includes file splitting and merging mechanism along with Multi Threads to simultaneously encrypt files.
 
-![](image/README/1626677298576.png)
+![](image/README/1626678446514.png)
 
-
-![](image/README/1626677506925.png)
+![](image/README/1626678611397.png)
